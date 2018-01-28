@@ -1,0 +1,225 @@
+@media only screen and (max-width: 500px) {
+	body {
+			background-color: lightblue;
+	}
+}
+
+html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: beige;
+	}
+
+.nav {
+	background-color: #595959;
+	color: #ffffff;
+	list-style: none;
+	padding: 50px 10% 50px 0;
+	text-align: right;
+	margin-right: auto;
+	border-bottom: rgb(9, 25, 98) solid 4px;
+	border-top: rgb(9, 25, 98) solid 4px;
+}
+
+.nav > li {
+	display: inline;
+	padding-right: 50px;
+}
+
+.nav > li > a {
+	text-decoration: none;
+	color: #c1c1c1;
+}
+
+.nav > li > a:hover {
+	color: #ffffff;
+}
+
+.footer {
+left: 0;
+right: 0;
+bottom: 0;
+padding: 1em;
+text-align: center;
+position: static;
+background-color: #595959;
+color: #ffffff;
+border-top: rgb(9, 25, 98) solid 4px;
+}
+
+#profilepic {
+	float: left;
+	border: rgb(9, 25, 98) solid 4px;
+	margin-top: -25px;
+	margin-bottom: -25px;
+	margin-left: 15px;
+}
+
+.para1 {
+	display: flex;
+	color: #595959;
+}
+.name {
+	padding: 40px 0 40px 0;
+	margin-left: 10%;
+	margin-top: 0;
+	background-color: rgb(9, 25, 98);
+	width: 300px;
+	text-align: center;
+	float: left;
+	color: #c1c1c1;
+	font-size: 40px;
+	border-bottom: #595959 solid 4px;
+	border-top: #595959 solid 4px;
+}
+
+
+.content {
+	background-color: #595959;
+	height: auto;
+	width: 745px;
+	max-width: auto;
+	min-width: auto;
+	padding-top: 175px;
+	padding-left: 5px;
+	padding-bottom: 0.5em;
+	margin: 20px 375px 50px 10%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	position: relative;
+	border: rgb(9, 25, 98) solid 4px;
+}
+
+#image {
+	padding: 0;
+	border: rgb(9, 25, 98) solid 3px;
+	margin-left: 8px;
+}
+
+#images {
+	margin-left: 10px;
+	border: rgb(9, 25, 98) solid 3px;
+}
+
+.para {
+	padding: 0 10px 10px 15px;
+	color: #ffffff;
+	font-size: 20px;
+	border-bottom: #c1c1c1 solid 1px;
+}
+
+h4 {
+	color: #ffffff;
+	font-size: 30px;
+	padding: 0;
+	margin-top: 0.5em;
+}
+
+.port {
+	position: absolute;
+	margin: -125px 10px 10px 10px;
+	padding-left: 0;
+	padding-bottom: 45px;
+	color: #ffffff;
+	font-size: 35px;
+	border-bottom: #ffffff solid 4px;
+	width: 720px;
+}
+
+form {
+	font-size: 25px;
+	padding-left: 25px;
+	color: #ffffff;
+}
+
+.input {
+	min-width: 500px;
+	width: auto;
+	height: 25px;
+}
+
+input {
+	width: 75px;
+	font-size: 15px;
+}
+
+.button {
+	max- width: 75px;
+}
+
+.message {
+	width: 600px;
+	height: 450px;
+	padding-top: 0.5em;
+}
+.sidebar {
+	background-color: #595959;
+	height: auto;
+	width: 350px;
+	border: rgb(9, 25, 98) solid 4px;
+	margin: 20px 10% 10% 25px;
+	padding: 0.5em 2em 0.5em 2em;
+	text-align: center;
+	color: #ffffff;
+	font-size: 25px;
+	float: right;
+	position: relative;
+}
+
+h3 {
+	border-bottom: #ffffff solid 4px;
+	padding-bottom: 0.5em;
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: left;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+	color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+
